@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.bir {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.bir .logo {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.bir ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.bir ul li a {
+    text-decoration: none;
+    color: #ffbb00;
+}
+
+.icon {
+    color: #ffd000;
+    font-size: 30PX;
+}
+
+.ikki h1 {
+    color: #000;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ikki ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.ikki {
+    margin: 0 auto;
+
+}
+
+.ikki ul {
+    list-style: none;
+    background-color: #000;
+    gap: 20px;
+    margin: 0;
+    padding: 10px;
+    width: 800px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.ikki ul li a {
+    text-decoration: none;
+    color: #ffbb00;
+}
+
+.uch {
+    background-color: #000;
+    color: #ffbb00;
+    margin-left: 235px;
+    width: 1450px;
+}
+
+.ham1 {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+
+
+}
+
+.ham2 {
+    display: flex;
+    border-bottom: 2px solid black;
+
+}
+
+.ham {
+    display: flex;
+    margin-left: 235px;
+    padding-bottom: 15px;
+}
+
+.ham1 button {
+    color: azure;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ham5 {
+    display: flex;
+    margin-left: 235px;
+    border-bottom: 2px solid black ;
+    padding-bottom: 15px;
+}
+
+.active {
+    color: white !important;
+}
